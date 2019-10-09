@@ -1,0 +1,16 @@
+const = Discord Require("Discord.Js")
+const Client = New Discord.Client();
+
+var prefix = '~'
+var Token = 'NjMxMzA5NzM0NzIwNTY5NDA0.XZ1FFQ.dYUFC97A3XKTJzGNlMJ9jSJWkZE'
+
+client.on("ready, function"ready {
+	console.log("ready")
+})
+
+client.on("message", message => {
+if(message.content.startswith(prefix + "Ping"))
+message.channel.send("Pong!") 
+})
+
+client.login(NjMxMzA5NzM0NzIwNTY5NDA0.XZ1FFQ.dYUFC97A3XKTJzGNlMJ9jSJWkZE);
